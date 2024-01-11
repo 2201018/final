@@ -3,8 +3,8 @@
 <?php require 'menu.php'; ?>
 <?php
     echo '<table>';
-    echo '<tr><th>楽曲ID</th><th>曲名</th><th>アーティスト名</th></tr>';
-    $pdo=new PDO('mysql:host=mysql218.phy.lolipop.lan;dbname=LAA1517324-final;charset=utf8','LAA1517324','Pass0919');
+    echo '<tr><th>ゲームID</th><th>ゲーム名</th><th>ジャンル</th></tr>';
+    $pdo=new PDO('mysql:host=mysql220.phy.lolipop.lan;dbname=LAA1517324-final;charset=utf8','LAA1517324','Pass0919');
     $sql=$pdo->query('select * from game');
     foreach($sql as $row){
             echo '<tr>';
