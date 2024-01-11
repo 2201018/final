@@ -27,7 +27,7 @@
         echo '<tr>';
         echo '<td>', $row['id'], '</td>';
         echo '<td>', $row['name'], '</td>';
-        echo '<td>', $row['gemre'], '</td>';
+        echo '<td>', $row['genre'], '</td>';
         echo '</tr>';
         echo "\n";
     }
