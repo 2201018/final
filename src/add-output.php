@@ -3,7 +3,7 @@
 <?php require 'menu.php'; ?>
     <?php
         $pdo=new PDO($connect, USER, PASS);
-        $sql=$pdo->prepare('insert into game(id,name,genre) values (?, ?, ?)');
+        $sql=$pdo->prepare('insert into game(name,genre) values (?, ?, ?)');
         if(empty($_POST['name'])){
             echo 'ゲーム名を入力してください。';
         }else if(empty($_POST['genre'])){
