@@ -8,7 +8,7 @@
             echo 'ゲーム名を入力してください。';
         }else if(empty($_POST['genre'])){
             echo 'ジャンルを入力してください。';
-        }else if($sql->execute($_POST['name'],$_POST['genre'] )){
+        }else if($sql->execute($_POST['id'],$_POST['name'],$_POST['genre'] )){
             echo '<font color="red">追加に成功しました。</font>';
         }else{
             echo '<font color="red">追加に失敗しました。</font>';
