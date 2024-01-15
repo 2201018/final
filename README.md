@@ -3,4 +3,4 @@
 ## クラス      :SD2A
 ## 氏名        :局　優
 ## システム名  :ゲーム管理システム
-## URL　　　   :
+## URL　　　   :https://aso2201018.chu.jp/final/src/index.php
